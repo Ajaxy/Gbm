@@ -68,8 +68,11 @@ h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 #header .link.link-three { top:100px; right:160px }
 #header .link.link-three .link-c .line { height:82px }
 
-#header .link.link-four { top:166px; left:160px }
-#header .link.link-four .link-c .line { height:148px }
+#header .link.link-four { top:100px; left:160px }
+#header .link.link-four .link-c .line { height:82px }
+
+#header .link.active { top:166px;}
+#header .link.active .link-c .line { height:148px }
 
 
 
@@ -168,7 +171,7 @@ body#page-contacts #wrapper { padding-bottom:5px }
 
 body#page-contacts #content .big-text { color:#936037; padding:15px 0 35px 240px }
 body#page-contacts #content .block-content.map-block { background:none; overflow:visible; margin-bottom:20px }
-body#page-contacts #content .block-content.map-block .map { color:#fff; box-shadow:3px 3px 3px rgba(0,0,0,0.1); background:#936037; border-radius:3px; border:2px solid #fff; height:306px }
+body#page-contacts #content .block-content.map-block #map { box-shadow:3px 3px 3px rgba(0,0,0,0.1); background:#936037; border-radius:3px; border:2px solid #fff; height:306px }
 body#page-contacts #content .block-content.contacts-block { margin:0 240px 20px; min-height:inherit }
 body#page-contacts #content .block-content.contacts-block .email-list li { clear:both; margin-bottom:10px }
 body#page-contacts #content .block-content.contacts-block .email-list li a { float:right }

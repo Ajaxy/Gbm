@@ -17,7 +17,27 @@
     <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
     <script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
     <script type="text/javascript" src="js/jquery.slides.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU&mode=debug" type="text/javascript"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        ymaps.ready(function () {
+            var map = new ymaps.Map('map', {
+                    center: [55.75, 37.587],
+                    zoom: 15
+                });
+
+            map.controls
+                .add('mapTools')
+                .add('smallZoomControl');
+
+            map.geoObjects.add(new ymaps.Placemark(map.getCenter(), {
+                iconContent: 'Gingerbrandman',
+                balloonContent: '121099, Россия, Москва, Спасопесковский пер-к, 7/1'
+            }, {
+                preset: 'twirl#blueStretchyIcon'
+            }));
+        });
+    </script>
 </head>
 
 <body id="page-contacts">
@@ -25,7 +45,6 @@
     <div id="container">
         <div id="header">
             <div class="logo-one"><a href="#">GingerBrandMan</a></div>
-            <h1 class="logo-two"><a href="#">TuttiFrutti</a></h1>
 
             <div class="link link-one">
                 <div class="link-c">
@@ -40,7 +59,7 @@
                     <div class="line l-line"></div>
                     <div class="line r-line"></div>
 
-                    <a href="#" class="link-click">Контакты</a>
+                    <a href="contacts.html" class="link-click">Контакты</a>
                 </div>
             </div>
             <div class="link link-three">
@@ -56,7 +75,7 @@
                     <div class="line l-line"></div>
                     <div class="line r-line"></div>
 
-                    <a href="#" class="link-click">Франшиза Tutti Frutti</a>
+                    <a href="index.html" class="link-click">Франшиза Tutti Frutti</a>
                 </div>
             </div>
         </div>
@@ -67,7 +86,7 @@
 
                 <div class="block-content map-block">
                     <div class="info-content">
-                        <div class="map">здесь будет карта, ололо всем</div>
+                        <div id="map"></div>
                     </div>
                 </div>
 
