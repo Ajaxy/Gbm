@@ -27,6 +27,7 @@ a:hover { text-decoration:underline }
 h1,h2,h3,h4 { font-weight:normal }
 h2 { font-size:54px }
 h3 { font-size:27px }
+h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 
 
 /* Grid */
@@ -155,4 +156,29 @@ h3 { font-size:27px }
 #footer .footer-links li a { color:#fff }
 
 #footer .footer-copy { color:#9b8579; padding:34px 0 0 90px; font-size:12px }
+
+
+
+
+
+/* Страница Контактов */
+body#page-contacts  { font-size:15.99px; background:#c9af9b; color:#936037 }
+body#page-contacts a { color:#936037 }
+body#page-contacts #wrapper { padding-bottom:5px }
+
+body#page-contacts #content .big-text { color:#936037; padding:15px 0 35px 240px }
+body#page-contacts #content .block-content.map-block { background:none; overflow:visible; margin-bottom:20px }
+body#page-contacts #content .block-content.map-block .map { color:#fff; box-shadow:3px 3px 3px rgba(0,0,0,0.1); background:#936037; border-radius:3px; border:2px solid #fff; height:306px }
+body#page-contacts #content .block-content.contacts-block { margin:0 240px 20px; min-height:inherit }
+body#page-contacts #content .block-content.contacts-block .email-list li { clear:both; margin-bottom:10px }
+body#page-contacts #content .block-content.contacts-block .email-list li a { float:right }
+
+body#page-contacts #content .block-content.contacts-block .social-list { margin-top:60px; float:right }
+body#page-contacts #content .block-content.contacts-block .social-list li { display:inline-block; *display:inline; zoom:1; vertical-align:top; margin-left:7px }
+body#page-contacts #content .block-content.contacts-block .social-list li a { display:block; height:17px; background:url(../img/gbm-icons.png) no-repeat; text-indent:-99999px; }
+body#page-contacts #content .block-content.contacts-block .social-list li.vk a { width:17px; background-position:-350px -191px }
+body#page-contacts #content .block-content.contacts-block .social-list li.fb a { width:15px; background-position:-377px -191px }
+body#page-contacts #content .block-content.contacts-block .social-list li.inst a { width:16px; background-position:-403px -191px }
+
+body#page-contacts #content .block-content.email-block { background:none; margin-bottom:0 }
 
