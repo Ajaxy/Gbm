@@ -16,7 +16,6 @@ img { border: none; }
 -------------------------------------------------------------------*/
 
 @font-face { font-family: 'HeliosC'; src: url(../fonts/HeliosC.otf); }
-@font-face { font-family: 'HeliosC-Bold'; src: url(../fonts/HeliosC-Bold.otf); }
 
 html, body { height: 100%; }
 body { font: 13px 'HeliosC', Arial, sans-serif; line-height:16px; color: #58595b; background: #fdba31 }
@@ -54,7 +53,7 @@ h3 { font-size:27px }
 #header .link .link-c .line { width:6px; height:150px; z-index:2; position:absolute; bottom:25px; background:url(../img/line.png) no-repeat 0 100%; display:block }
 #header .link .link-c .line.l-line { left:12px }
 #header .link .link-c .line.r-line { right:12px }
-#header .link .link-c .link-click { display:block; box-shadow:0 5px 4px rgba(0,0,0,0.2); border-radius:15px; font-family:'HeliosC-Bold', Arial, sans-serif; padding:0 18px; height:31px; line-height:35px; color:#fff; text-decoration:none; font-size:16.89px; background:#936037; border:3px solid #fff }
+#header .link .link-c .link-click { display:block; box-shadow:0 5px 4px rgba(0,0,0,0.2); border-radius:15px; padding:0 18px; height:31px; line-height:35px; color:#fff; text-decoration:none; font-size:16.89px; background:#936037; border:3px solid #fff }
 #header .link .link-c:hover .line { background-position: -6px 100% }
 #header .link .link-c:hover .link-click { background:#a48a7a }
 #header .link.active .link-c .link-click { background:#a48a7a }
