@@ -108,7 +108,7 @@ h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 #content .block-content.block-map .info-content { position:relative; height:460px; overflow:hidden; clear:both; }
 #content .block-content.block-map .info-content .map-img { position:absolute; right:0; top:36px }
 #content .block-content.block-map .title-map { color:#fff; font-size:16px; width:180px; line-height:21px; margin-bottom:10px }
-#content .block-content.block-map .info-content .country-list { height:390px; width:140px; position:relative; z-index:2 }
+#content .block-content.block-map .info-content .country-list { height:390px; width:140px; position:relative; z-index:2; outline: none !important; }
 #content .block-content.block-map .info-content .country-list ul li { line-height:14px }
 #content .block-content.block-map .info-content .country-list ul li a { color:#58595b }
 
