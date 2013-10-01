@@ -8,7 +8,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td { padding: 0; margin: 0; text-align: left; }
+table, caption, tbody, tfoot, thead, tr, th, td { padding: 0; margin: 0; }
 ul, ol { list-style: none; }
 img { border: none; }
 
@@ -32,6 +32,7 @@ h3 { font-size:27px }
 h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 
 .title-white { color:#fff }
+.center { text-align: center; }
 
 /* Grid */
 #container  { min-height:100%; position:relative; width:990px; margin:0 auto }
