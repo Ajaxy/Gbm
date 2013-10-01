@@ -37,7 +37,7 @@ h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 /* Grid */
 #container  { min-height:100%; position:relative; width:990px; margin:0 auto }
 #header     { height:240px; position:relative; background:url(../img/header-bg.png) no-repeat center top }
-#wrapper    { padding:20px 0 35px; text-align: center; }
+#wrapper    { padding:20px 0 35px; }
 #content    {  }
 #footer     { height:90px; margin-top:-90px; position:relative }
 
