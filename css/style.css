@@ -41,6 +41,8 @@ h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 #content    {  }
 #footer     { height:90px; margin-top:-90px; position:relative }
 
+.content-width { width: 870px; margin: 0 auto; overflow: hidden; }
+
 .hFooter    { height:90px; clear:both }
 .footer-in  { width:514px; margin:0 auto; height:90px; background:url(../img/footer-bg.png) no-repeat center top }
 
@@ -184,9 +186,10 @@ body#page-contacts #content .block-content.shops-block ul li .title { font-weigh
 body#page-contacts #content .block-content.shops-block ul li strong { display:block; margin-top:2px }
 
 
-body#page-index { font-size: 13px; }
-body#page-index .content-width { width: 870px; display: inline-block; }
+body#page-index #wrapper { padding-bottom: 50px }
 body#page-index .dots { height: 10px; margin-bottom: 30px; background: url("../img/dotted.png") repeat-x scroll left bottom rgba(0, 0, 0, 0) }
 body#page-index .block { width: 420px; text-align: justify; }
 body#page-index .l { float: left; }
 body#page-index .r { float: right; }
+
+body#page-partners .msg { font-size: 16px; line-height: 20px; margin-top: 30px; }
