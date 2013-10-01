@@ -8,7 +8,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td { padding: 0; margin: 0; }
+table, caption, tbody, tfoot, thead, tr, th, td { padding: 0; margin: 0; text-align: left; }
 ul, ol { list-style: none; }
 img { border: none; }
 
@@ -18,9 +18,11 @@ img { border: none; }
 @font-face { font-family: 'HeliosC'; src: url(../fonts/HeliosC.otf); }
 
 html, body { height: 100%; }
-body { font: 13px 'HeliosC', Arial, sans-serif; line-height:16px; color: #58595b; background: #fdba31 }
+body { font: 13px 'HeliosC', Arial, sans-serif; line-height:16px; background:#d4bfaf; color: #936037; }
 
-a { text-decoration:none }
+body#page-franchising { color: #58595b; background: #fdba31 }
+
+a { color:#936037; text-decoration:none }
 a:hover { text-decoration:underline }
 
 
@@ -34,7 +36,7 @@ h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 /* Grid */
 #container  { min-height:100%; position:relative; width:990px; margin:0 auto }
 #header     { height:240px; position:relative; background:url(../img/header-bg.png) no-repeat center top }
-#wrapper    { padding:20px 0 35px }
+#wrapper    { padding:20px 0 35px; text-align: center; }
 #content    {  }
 #footer     { height:90px; margin-top:-90px; position:relative }
 
@@ -165,15 +167,8 @@ h4 { font-size:15.99px; font-weight:600; margin-bottom:5px }
 
 #footer .footer-copy { color:#9b8579; padding:34px 0 0 90px; font-size:12px }
 
-
-
-
-
-/* Страница Контактов */
-body#page-contacts  { font-size:15.99px; background:#c9af9b; color:#936037 }
-body#page-contacts a { color:#936037 }
+body#page-contacts { font-size: 16px;  }
 body#page-contacts #wrapper { padding-bottom:5px }
-
 body#page-contacts #content .big-text { color:#936037; padding:15px 0 35px 240px }
 body#page-contacts #content .block-content.map-block { background:none; overflow:visible; margin-bottom:20px }
 body#page-contacts #content .block-content.map-block #map { box-shadow:3px 3px 3px rgba(0,0,0,0.1); background:#936037; border-radius:3px; border:2px solid #fff; height:306px }
@@ -187,3 +182,10 @@ body#page-contacts #content .block-content.shops-block ul li { line-height:21px;
 body#page-contacts #content .block-content.shops-block ul li .title { font-weight:bold }
 body#page-contacts #content .block-content.shops-block ul li strong { display:block; margin-top:2px }
 
+
+body#page-index { font-size: 13px; }
+body#page-index .content-width { width: 870px; display: inline-block; }
+body#page-index .dots { height: 10px; margin-bottom: 30px; background: url("../img/dotted.png") repeat-x scroll left bottom rgba(0, 0, 0, 0) }
+body#page-index .block { width: 420px; text-align: justify; }
+body#page-index .l { float: left; }
+body#page-index .r { float: right; }
