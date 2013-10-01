@@ -177,7 +177,7 @@ body#page-contacts #content .block-content.map-block { background:none; overflow
 body#page-contacts #content .block-content.map-block #map { box-shadow:3px 3px 3px rgba(0,0,0,0.1); background:#936037; border-radius:3px; border:2px solid #fff; height:306px }
 body#page-contacts #content .block-content.contacts-block { margin:0 240px 20px; min-height:inherit }
 body#page-contacts #content .block-content.contacts-block .email-list li { clear:both; margin-bottom:10px }
-body#page-contacts #content .block-content.contacts-block .email-list li a { float:right }
+body#page-contacts #content .block-content.contacts-block .email-list li a { float:right; width: 235px; }
 
 body#page-contacts #content .block-content.shops-block { background:none; margin:0 240px 0 }
 body#page-contacts #content .block-content.shops-block ul { margin-right:-50px }
