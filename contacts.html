@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Контакты / GBM</title>
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css">
+
+    <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="js/lightbox-2.6.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+    <script type="text/javascript" src="js/jquery.slides.min.js"></script>
+    <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU&mode=debug" type="text/javascript"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        ymaps.ready(function () {
+            var map = new ymaps.Map('map', {
+                    center: [55.75, 37.587],
+                    zoom: 15
+                });
+
+            map.controls
+                .add('mapTools')
+                .add('smallZoomControl');
+
+            map.geoObjects.add(new ymaps.Placemark(map.getCenter(), {
+                iconContent: 'GingerBrandMan',
+                balloonContent: '121099, Россия, Москва, Спасопесковский пер-к, 7/1'
+            }, {
+                preset: 'twirl#blueStretchyIcon'
+            }));
+        });
+    </script>
+</head>
+
+<body id="page-contacts">
+
+    <div id="container">
+        <div id="header">
+            <div class="logo-one"><a href="#">GingerBrandMan</a></div>
+
+            <div class="link link-one">
+                <div class="link-c">
+                    <div class="line l-line"></div>
+                    <div class="line r-line"></div>
+
+                    <a href="index.html" class="link-click">О нас</a>
+                </div>
+            </div>
+            <div class="link link-two active">
+                <div class="link-c">
+                    <div class="line l-line"></div>
+                    <div class="line r-line"></div>
+
+                    <a href="contacts.html" class="link-click">Контакты</a>
+                </div>
+            </div>
+            <div class="link link-three">
+                <div class="link-c">
+                    <div class="line l-line"></div>
+                    <div class="line r-line"></div>
+
+                    <a href="partners.html" class="link-click">Сотрудничество</a>
+                </div>
+            </div>
+            <div class="link link-four">
+                <div class="link-c">
+                    <div class="line l-line"></div>
+                    <div class="line r-line"></div>
+
+                    <a href="franchising.html" class="link-click">Франшиза Tutti Frutti</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="wrapper">
+            <div id="content">
+                <div class="big-text"><h2>GingerBrandMan</h2></div>
+
+                <div class="block-content map-block">
+                    <div class="info-content">
+                        <div id="map"></div>
+                    </div>
+                </div>
+
+                <div class="block-content contacts-block">
+                    <h4 class="title-white">ООО «ДжинжерБрендМен»</h4>
+                    <br>
+                    <h4>Адрес:</h4>
+                    <p>121099, Россия, Москва, Спасопесковский пер-к, 7/1</p>
+                </div>
+
+                <div class="block-content contacts-block">
+                    <h4>Телефон:</h4>
+                    <p>+7 495 783 25 58</p>
+                </div>
+
+                <div class="block-content contacts-block email-block">
+                    <h4>E-mail:</h4>
+                    <br>
+                    <div class="email-list">
+                        <ul>
+                            <li><a href="mailto:partner@gbm-mail.com">partner@gbm-mail.com</a>Отдел франчайзинга</li>
+                            <li><a href="mailto:pr@gbm-mail.com">pr@gbm-mail.com</a>Отдел маркетинга и рекламы</li>
+                            <li><a href="mailto:zakupki@gbm-mail.com">zakupki@gbm-mail.com</a>Отдел закупок</li>
+                            <li><a href="mailto:info@gbm-mail.com">info@gbm-mail.com</a>Общие вопросы</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="block-content shops-block">
+                    <h4 class="title-white">Кафе Tutti Frutti Frozen Yogurt на территории России</h4>
+                    <br>
+                    <ul>
+                        <li>
+                            <div class="title">ТРЦ «РИО» - Дмитровка</div>
+                            Дмитровское шоссе, 163А<br>2 этаж, рядом с кинотеатром
+                        </li>
+                        <li>
+                            <div class="title">ТРЦ «Калейдоскоп»</div>
+                            Сходненская, 56<br>3 этаж, рядом с кинотеатром
+                        </li>
+                        <li>
+                            <div class="title">ТРЦ «РИО» - Ленинский</div>
+                            Ленинский проспект, вл. 109<br>1 этаж, Атриум
+                        </li>
+                        <li>
+                            <div class="title">Башня «Эволюция»</div>
+                            Москва-Сити, выход из метро «Выставочная»
+                            <strong>СКОРО ОТКРЫТИЕ!</strong>
+                        </li>
+                        <li>
+                            <div class="title">ТРЦ «Отрада» Митино</div>
+                            7-ой км Пятницкого шоссе,<br>1 этаж
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hFooter"></div>
+    </div>
+
+    <div id="footer">
+        <div class="footer-in">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="partners.html">Сотрудничество</a></li>
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="franchising.html">Франшиза Tutti Frutti</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-copy">
+                © 2013 г. ООО «GingerBrandMan». Все права защищены
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
