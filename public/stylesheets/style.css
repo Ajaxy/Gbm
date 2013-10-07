@@ -214,9 +214,9 @@ body#page-index #logo .masks div { background: #D4BFAF; position: absolute; opac
 body#page-index #logo .masks.hidden div { opacity: 0; }
 body#page-index #logo .masks .man { width: 139px; height: 200px; top: 0; }
 body#page-index #logo .masks .man-1 { left: 151px; transition-delay: 300ms; -webkit-transition-delay: 300ms; }
-body#page-index #logo .masks .man-2 { left: 290px; transition-delay: 600ms; -webkit-transition-delay: 600ms; }
-body#page-index #logo .masks .man-3 { left: 429px; transition-delay: 900ms; -webkit-transition-delay: 900ms; }
-body#page-index #logo .masks .man-4 { left: 567px; transition-delay: 1200ms; -webkit-transition-delay: 1200ms; }
+body#page-index #logo .masks .man-2 { left: 290px; transition-delay: 1200ms; -webkit-transition-delay: 1200ms; }
+body#page-index #logo .masks .man-3 { left: 429px; transition-delay: 600ms; -webkit-transition-delay: 600ms; }
+body#page-index #logo .masks .man-4 { left: 567px; transition-delay: 900ms; -webkit-transition-delay: 900ms; }
 body#page-index #logo .masks .man-5 { left: 706px; transition-delay: 1500ms; -webkit-transition-delay: 1500ms; }
 body#page-index #logo .masks .word { height: 140px; top: 200px; }
 body#page-index #logo .masks .word-1 { width: 355px; left: 50px; transition-delay: 1800ms; -webkit-transition-delay: 1800ms; }
