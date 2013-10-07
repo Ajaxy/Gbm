@@ -220,8 +220,8 @@ body#page-index #logo .masks .man-4 { left: 567px; transition-delay: 900ms; -web
 body#page-index #logo .masks .man-5 { left: 706px; transition-delay: 1500ms; -webkit-transition-delay: 1500ms; }
 body#page-index #logo .masks .word { height: 140px; top: 200px; }
 body#page-index #logo .masks .word-1 { width: 355px; left: 50px; transition-delay: 1800ms; -webkit-transition-delay: 1800ms; }
-body#page-index #logo .masks .word-2 { width: 305px; left: 405px; transition-delay: 2000ms; -webkit-transition-delay: 2000ms; }
-body#page-index #logo .masks .word-3 { width: 230px; left: 710px; transition-delay: 2200ms; -webkit-transition-delay: 2200ms; }
+body#page-index #logo .masks .word-2 { width: 305px; left: 405px; transition-delay: 2100ms; -webkit-transition-delay: 2100ms; }
+body#page-index #logo .masks .word-3 { width: 230px; left: 710px; transition-delay: 2400ms; -webkit-transition-delay: 2400ms; }
 
 body#page-partners .msg { font-size: 16px; line-height: 20px; margin-top: 30px; }
 
