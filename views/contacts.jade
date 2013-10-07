@@ -1,0 +1,69 @@
+extends layout
+
+block vars
+    - var title = 'Контакты'
+
+block head
+    script(type='text/javascript', src='http://api-maps.yandex.ru/2.0-stable/?load=package.full&lang=ru-RU')
+    script(type='text/javascript', src='/javascripts/contacts.js')
+
+block content
+    #content
+        .big-text
+            h2 GingerBrandMan
+        .block-content.map-block
+            .info-content
+                #map
+        .block-content.contacts-block
+            h4.title-white ООО «ДжинжерБрендМен»
+            br
+            h4 Адрес:
+            p 121099, Россия, Москва, Спасопесковский пер-к, 7/1
+        .block-content.contacts-block
+            h4 Телефон:
+            p +7 495 783 25 58
+        .block-content.contacts-block.email-block
+            h4 E-mail:
+            br
+            .email-list
+                ul
+                    li
+                        a(href='mailto:partner@gbm-mail.com') partner@gbm-mail.com
+                        | Отдел франчайзинга
+                    li
+                        a(href='mailto:pr@gbm-mail.com') pr@gbm-mail.com
+                        | Отдел маркетинга и рекламы
+                    li
+                        a(href='mailto:zakupki@gbm-mail.com') zakupki@gbm-mail.com
+                        | Отдел закупок
+                    li
+                        a(href='mailto:info@gbm-mail.com') info@gbm-mail.com
+                        | Общие вопросы
+        .block-content.shops-block
+            h4.title-white Кафе Tutti Frutti Frozen Yogurt на территории России
+            br
+            ul
+                li
+                    .title ТРЦ «РИО» - Дмитровка
+                    | Дмитровское шоссе, 163А
+                    br
+                    | 2 этаж, рядом с кинотеатром
+                li
+                    .title ТРЦ «Калейдоскоп»
+                    | Сходненская, 56
+                    br
+                    | 3 этаж, рядом с кинотеатром
+                li
+                    .title ТРЦ «РИО» - Ленинский
+                    | Ленинский проспект, вл. 109
+                    br
+                    | 1 этаж, Атриум
+                li
+                    .title Башня «Эволюция»
+                    | Москва-Сити, выход из метро «Выставочная»
+                    strong СКОРО ОТКРЫТИЕ!
+                li
+                    .title ТРЦ «Отрада» Митино
+                    | 7-ой км Пятницкого шоссе,
+                    br
+                    | 1 этаж

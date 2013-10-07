@@ -1,0 +1,185 @@
+extends layout
+
+block vars
+    - var title = 'Франшиза Tutti Frutti'
+
+block head
+    link(rel='stylesheet', type='text/css', href='/stylesheets/lightbox.css')
+    link(rel='stylesheet', type='text/css', href='/vendor/jquery.jscrollpane.css')
+    script(type='text/javascript', src='/vendor/jquery-1.8.2.min.js')
+    script(type='text/javascript', src='/vendor/lightbox-2.6.min.js')
+    script(type='text/javascript', src='/vendor/jquery.mousewheel.js')
+    script(type='text/javascript', src='/vendor/jquery.jscrollpane.js')
+    script(type='text/javascript', src='/vendor/jquery.slides.min.js')
+    script(type='text/javascript', src='/javascripts/franchising.js')
+
+block content
+    #content
+        .big-text
+            h2 Tutti Frutti Frozen Yogurt
+        .block-slider
+            img.logo-ru(src='/images/logo-ru.png', alt='Russia')
+            #slides
+                img(src='/images/examples/slide1.jpg', alt='')
+                img(src='/images/examples/slide2.jpg', alt='')
+                img(src='/images/examples/slide3.jpg', alt='')
+                img(src='/images/examples/slide4.jpg', alt='')
+                a.slidesjs-previous.slidesjs-navigation(href='#') Назад
+                a.slidesjs-next.slidesjs-navigation(href='#') Вперед
+        .block-content.block-map
+            .info-content
+                img.map-img(src='/images/map.gif', alt='map')
+                .title-map Карта Tutti Frutti Frozen Yogurt
+                .country-list.scroll-list
+                    ul
+                        li Afghanistan
+                        li Austria
+                        li Bangladesh
+                        li Burma
+                        li Egypt
+                        li France
+                        li Hungary
+                        li Iraq
+                        li Ireland
+                        li Italy
+                        li Korea
+                        li Monaco
+                        li New Zealand
+                        li Oman
+                        li Qatar
+                        li Sri Lanka
+                        li Switzerland
+                        li Thailand
+                        li Bahrain
+                        li Brunei
+                        li Cambodia
+                        li China - Hong Kong
+                        li Dominican Rep.
+                        li Guam
+                        li Indonesia
+                        li Jamaica
+                        li Nigeria
+                        li Peru
+                        li Singapore
+                        li Spain
+                        li Tahiti
+                        li United Kingdom
+                        li USA
+                        li Russia
+                        li Saudi Arabia
+                        li Vietnam
+                        li Australia
+                        li Brazil
+                        li Philippines
+                        li Taiwan
+                        li Canada
+                        li Mexico
+                        li Pakistan
+                        li Malaysia
+                        li Costa Rica
+                        li (Coming Soon)
+                        li Germany
+                        li (Coming Soon)
+                        li UAE
+                        li (Coming Soon)
+        .block-content.block-desc
+            .title-content
+                h2 720 кафе, более чем в 40 странах
+            .l
+                p
+                    | Сеть Tutti Frutti Frozen Yogurt основана в 2008 году в США, в штате Калифорния и развивается с головокружительной скоростью. Такой успех во всем мире объясняется не только высочайшим качеством и потрясающим вкусом нашего йогурт-мороженого, но и высокой рентабельностью бизнеса, а также удачным выбором модели обслуживания self-serve, которая позволяет кафе Tutti Frutti функционировать эффективно, без лишних усилий и с минимальными накладными расходами.
+                p
+                    | Мы знаем, как непросто бывает начать свое дело – с первых дней приходится сталкиваться с большим количеством вопросов разной степени сложности. Бизнес, открытый по франшизе Tutti Frutti Frozen Yogurt, дает ответы и готовые решения, и предоставляет возможность работать с ярким,  стабильным, всемирно известным брендом.
+            .r
+                p
+                    | В России компания GingerBrandMan выстроила собственную инфраструктуру: наладила импортные поставки фирменной продукции, создала сеть российских поставщиков, организовала квалифицированную всестороннюю поддержку партнеров, разработала собственные маркетинговые стратегии, систему контроля и многое другое. Поэтому вместе с франшизой Tutti Frutti Frozen Yogurt  вы получаете гораздо больше, чем просто  право пользоваться успешным брендом и закупать ингредиенты премиум-класса. Команда GingerBrandMan делает все от нее зависящее, чтобы помочь  своим франчайзи создать успешный бизнес  вместе с Tutti Frutti.
+        .block-content.block-howto
+            .title-content
+                h2 Self-Serve*
+                h3.note Как это работает:
+            .info-content
+                .r
+                    ul
+                        li
+                            a(href='/images/examples/pic1.jpg', data-lightbox='howto')
+                                img.small-preview(src='/images/examples/pic1.jpg', alt='')
+                        li
+                            a(href='/images/examples/pic2.jpg', data-lightbox='howto')
+                                img.small-preview(src='/images/examples/pic2.jpg', alt='')
+                        li
+                            a(href='/images/examples/pic3.jpg', data-lightbox='howto')
+                                img.small-preview(src='/images/examples/pic3.jpg', alt='')
+                        li
+                            a(href='/images/examples/pic4.jpg', data-lightbox='howto')
+                                img.small-preview(src='/images/examples/pic4.jpg', alt='')
+                    .note *cамообслуживание
+                .l
+                    ul
+                        li
+                            i.count-i.one-count
+                            | Возьми стаканчик
+                        li
+                            i.count-i.two-count
+                            | Наполни его Tutti Frutti
+                        li
+                            i.count-i.three-count
+                            | Добавь топпинги
+                        li
+                            i.count-i.four-count
+                            | Взвесь и оплати
+            .title-content.title-content-two
+                h3.note Приемущества модели self-serve:
+            .info-content.info-content-two
+                ul
+                    li
+                        span •
+                        |  Выручка выше на 20-25%
+                    li
+                        span •
+                        |  ФОТ ниже на 15-20%
+                    li
+                        span •
+                        |  Высокий средний чек
+        .block-content.block-useful
+            .title-content
+                h2 Йогурт-Мороженое
+            .list-why
+                ul
+                    li.one
+                        span Низкокалорийный
+                    li.two
+                        span Протеины
+                    li.three
+                        span Пробиотики
+                    li.four
+                        span Витамины
+                    li.five
+                        span Кальций
+            .info-content
+                .l
+                    .block-info
+                        p
+                            strong Йогурт-мороженое
+                            | — это здоровая альтернатива мороженому и другим замороженным десертам, он появился сравнительно недавно – в 1970-е и очень быстро стал популярен во всем мире. Tutti Frutti Frozen Yogurt – это питательный молочный продукт, обогащенный полезными кисломолочными культурами. В нем содержится белок, кальций и витамины. Жирность менее 1%. Калорийность: 89-125 ккалл, в зависимости от вкуса Tutti Frutti.
+                    .block-info
+                        p
+                            strong Пробиотики
+                            | — это полезные бактерии, которые неизменно входят в состав йогурта. Они помогают понизить уровень холестерина, кровяное давление и уменьшают риск рака толстой кишки. Пробиотики не только помогают справиться с непереносимостью лактозы, но и содействуют усвоению полезных минералов. В целом, пробиотики укрепляют иммунную систему и предотвращают рост опасных бактерий.
+                .r
+                    .block-info
+                        p
+                            strong Фрукты
+                            | незаменимы для поддержания здорового образа жизни. Фрукты богаты клетчаткой и витамином С. Регулярное потребление фруктов способно снизить риск возникновения рака, сердечно-сосудистых заболеваний, инсульта, болезни Альцгеймера и катаракты. Фрукты содержат мало калорий и являются прекрасной альтернативой вредным перекусам. Они также помогают замедлить процесс старения.
+                    .block-info
+                        p
+                            strong Витамин С
+                            | — это сильнейший антиоксидант, защищающий организм от окислительного стресса и участвующий во многих ферментативных реакциях. Витамин С также необходим для выработки коллагена. Более того, витамин С поддерживает иммунную систему, способствуя обновлению кожи и укреплению суставов.  Он приносит огромную пользу организму и необходим каждому из нас.
+        .block-content.block-steps
+            .title-content
+                h2 12 шагов к открытию своего кафе
+            .info-content
+                img(src='/images/steps-pic.gif', alt='12 Шагов')
+        .block-content.block-more
+            | Узнай о нас больше на сайте
+            |
+            a(href='tuttifruttirussia.com') tuttifruttirussia.com

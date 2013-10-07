@@ -1,0 +1,55 @@
+!!! 5
+html(lang='ru')
+    block vars
+    head
+        meta(charset='utf-8')
+        title= title + " / GingerBrandMan"
+        meta(name='description', content='')
+        meta(name='keywords', content='')
+        link(rel='stylesheet', type='text/css', href='/stylesheets/style.css')
+        block head
+    body(id='page-' + activePage)
+        #container
+            #header
+                .logo-one
+                    a(href='/') GingerBrandMan
+                - if (activePage == 'franchising')
+                    h1.logo-two
+                        a(href="#") TuttiFrutti
+                .link.link-one(class=(activePage == 'index' && 'active'))
+                    .link-c
+                        .line.l-line
+                        .line.r-line
+                        a.link-click(href='/') О нас
+                .link.link-two(class=(activePage == 'contacts' && 'active'))
+                    .link-c
+                        .line.l-line
+                        .line.r-line
+                        a.link-click(href='/contacts') Контакты
+                .link.link-three(class=(activePage == 'partners' && 'active'))
+                    .link-c
+                        .line.l-line
+                        .line.r-line
+                        a.link-click(href='/partners') Сотрудничество
+                .link.link-four(class=(activePage == 'franchising' && 'active'))
+                    .link-c
+                        .line.l-line
+                        .line.r-line
+                        a.link-click(href='/franchising') Франшиза Tutti Frutti
+            #wrapper
+                block content
+            .hFooter
+        #footer
+            .footer-in
+                .footer-links
+                    ul
+                        li
+                            a(href='/partners') Сотрудничество
+                        li
+                            a(href='/') О нас
+                        li
+                            a(href='/contacts') Контакты
+                        li
+                            a(href='/franchising') Франшиза Tutti Frutti
+                .footer-copy
+                    | © 2013 г. ООО «GingerBrandMan». Все права защищены
