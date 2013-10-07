@@ -182,6 +182,23 @@ body#page-contacts #content .block-content.shops-block ul { margin-right:-50px }
 body#page-contacts #content .block-content.shops-block ul li { line-height:21px; display:inline-block; *display:inline; zoom:1; vertical-align:top; font-size:16px; width:220px; margin:0 50px 20px 0; min-height:70px }
 body#page-contacts #content .block-content.shops-block ul li .title { font-weight:bold }
 body#page-contacts #content .block-content.shops-block ul li strong { display:block; margin-top:2px }
+body#page-contacts .block-content.social-block {
+    overflow: hidden;
+    width: 115px;
+    margin: 0 auto;
+}
+
+body#page-contacts .block-content.social-block a {
+    background: url("/images/icons-social.png") no-repeat scroll 0 0 / auto 100% rgba(0, 0, 0, 0);
+    display: block;
+    height: 32px;
+    width: 32px;
+    float: left;
+    margin: 3px;
+}
+body#page-contacts .block-content.social-block a.fb { background-position: 50% 0; }
+body#page-contacts .block-content.social-block a.vk { background-position: 0 0; }
+body#page-contacts .block-content.social-block a.insta { background-position: 100% 0; }
 
 body#page-index #wrapper { padding-bottom: 50px }
 body#page-index .dots { height: 10px; margin-bottom: 30px; background: url("/images/dotted.png") repeat-x scroll left bottom rgba(0, 0, 0, 0) }
