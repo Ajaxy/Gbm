@@ -213,15 +213,15 @@ body#page-index #logo { width: 990px; height: 345px; background: url(/images/log
 body#page-index #logo .masks div { background: #D4BFAF; position: absolute; opacity: 1; transition: opacity 600ms; -webkit-transition: opacity 800ms; }
 body#page-index #logo .masks.hidden div { opacity: 0; }
 body#page-index #logo .masks .man { width: 139px; height: 200px; top: 0; }
-body#page-index #logo .masks .man-1 { left: 151px; transition-delay: 300ms; -webkit-transition-delay: 300ms; }
-body#page-index #logo .masks .man-2 { left: 290px; transition-delay: 1200ms; -webkit-transition-delay: 900ms; }
-body#page-index #logo .masks .man-3 { left: 429px; transition-delay: 600ms; -webkit-transition-delay: 500ms; }
-body#page-index #logo .masks .man-4 { left: 567px; transition-delay: 900ms; -webkit-transition-delay: 700ms; }
-body#page-index #logo .masks .man-5 { left: 706px; transition-delay: 1500ms; -webkit-transition-delay: 1100ms; }
+body#page-index #logo .masks .man-1 { left: 151px; transition-delay: 300ms; -webkit-transition-delay: 0ms; }
+body#page-index #logo .masks .man-2 { left: 290px; transition-delay: 1200ms; -webkit-transition-delay: 300ms; }
+body#page-index #logo .masks .man-3 { left: 429px; transition-delay: 600ms; -webkit-transition-delay: 100ms; }
+body#page-index #logo .masks .man-4 { left: 567px; transition-delay: 900ms; -webkit-transition-delay: 200ms; }
+body#page-index #logo .masks .man-5 { left: 706px; transition-delay: 1500ms; -webkit-transition-delay: 400ms; }
 body#page-index #logo .masks .word { height: 140px; top: 200px; }
-body#page-index #logo .masks .word-1 { width: 355px; left: 50px; transition-delay: 1800ms; -webkit-transition-delay: 1300ms; }
-body#page-index #logo .masks .word-2 { width: 305px; left: 405px; transition-delay: 2100ms; -webkit-transition-delay: 1500ms; }
-body#page-index #logo .masks .word-3 { width: 230px; left: 710px; transition-delay: 2400ms; -webkit-transition-delay: 1700ms; }
+body#page-index #logo .masks .word-1 { width: 355px; left: 50px; transition-delay: 1800ms; -webkit-transition-delay: 500ms; }
+body#page-index #logo .masks .word-2 { width: 305px; left: 405px; transition-delay: 2100ms; -webkit-transition-delay: 600ms; }
+body#page-index #logo .masks .word-3 { width: 230px; left: 710px; transition-delay: 2400ms; -webkit-transition-delay: 700ms; }
 
 body#page-partners .msg { font-size: 16px; line-height: 20px; margin-top: 30px; }
 
