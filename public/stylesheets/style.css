@@ -187,7 +187,7 @@ body#page-index #wrapper { padding-bottom: 50px }
 body#page-index .dots { height: 10px; margin-bottom: 30px; background: url("/images/dotted.png") repeat-x scroll left bottom rgba(0, 0, 0, 0) }
 body#page-index .block { width: 420px; text-align: justify; }
 @media only screen and (max-device-width: 480px) {
-    body#page-index .block { -webkit-text-size-adjust:200%; -moz-text-size-adjust:200%; -ms-text-size-adjust:200%; }
+    body#page-index .block { -webkit-text-size-adjust:150%; -moz-text-size-adjust:200%; -ms-text-size-adjust:200%; }
 }
 body#page-index .l { float: left; }
 body#page-index .r { float: right; }
