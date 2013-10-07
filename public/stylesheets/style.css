@@ -210,7 +210,7 @@ body#page-index .block { width: 420px; text-align: justify; }
 body#page-index .l { float: left; }
 body#page-index .r { float: right; }
 body#page-index #logo { width: 990px; height: 345px; background: url(/images/logo.png) center center no-repeat; overflow: hidden; position: relative; }
-body#page-index #logo .masks div { background: #D4BFAF; position: absolute; opacity: 1; transition: opacity 600ms; -webkit-transition: opacity 600ms; }
+body#page-index #logo .masks div { background: #D4BFAF; position: absolute; opacity: 1; transition: opacity 600ms; -webkit-transition: opacity 800ms; }
 body#page-index #logo .masks.hidden div { opacity: 0; }
 body#page-index #logo .masks .man { width: 139px; height: 200px; top: 0; }
 body#page-index #logo .masks .man-1 { left: 151px; transition-delay: 300ms; -webkit-transition-delay: 300ms; }
