@@ -196,9 +196,9 @@ body#page-contacts .block-content.social-block a {
     float: left;
     margin: 3px;
 }
-body#page-contacts .block-content.social-block a.fb { background-position: 50% 0; }
+body#page-contacts .block-content.social-block a.fb { background-position: -32px 0; }
 body#page-contacts .block-content.social-block a.vk { background-position: 0 0; }
-body#page-contacts .block-content.social-block a.insta { background-position: 100% 0; }
+body#page-contacts .block-content.social-block a.insta { background-position: -64px 0; }
 
 body#page-index #wrapper { padding-bottom: 50px }
 body#page-index .dots { height: 10px; margin-bottom: 30px; background: url("/images/dotted.png") repeat-x scroll left bottom rgba(0, 0, 0, 0) }
