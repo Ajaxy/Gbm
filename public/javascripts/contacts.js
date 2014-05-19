@@ -1,6 +1,6 @@
 ymaps.ready(function () {
     var map = new ymaps.Map('map', {
-        center: [55.75, 37.587],
+        center: [55.75, 37.664],
         zoom: 15
     });
 
@@ -10,7 +10,7 @@ ymaps.ready(function () {
 
     map.geoObjects.add(new ymaps.Placemark(map.getCenter(), {
         iconContent: 'GingerBrandMan',
-        balloonContent: '121099, Россия, Москва, Спасопесковский пер-к, 7/1'
+        balloonContent: '121099, Россия, Москва, ул. Нижний Сусальный переулок, д. 5, строение 18'
     }, {
         preset: 'twirl#blueStretchyIcon'
     }));
